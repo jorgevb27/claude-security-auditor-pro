@@ -1,0 +1,14 @@
+{
+  "name": "claude-security-auditor-pro",
+  "owner": {
+    "name": "jorgevb27"
+  },
+  "plugins": [
+    {
+      "name": "claude-security-auditor-pro",
+      "source": "./",
+      "description": "A security team inside Claude Code: 8 AI agents for authorized, evidence-driven security and functional audits, approval-gated fixes, a safety supervisor with veto, and an honest coverage-based star rating.",
+      "version": "1.0.0"
+    }
+  ]
+}

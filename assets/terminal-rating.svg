@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="439" viewBox="0 0 1000 439" role="img" aria-label="audit_manager.py rate — before and after the approved fix (real output, abridged)">
+<style>.t{font:500 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}</style>
+<rect width="1000" height="439" rx="14" fill="#07110d"/>
+<rect width="1000" height="40" rx="14" fill="#0f1f19"/><rect y="26" width="1000" height="14" fill="#0f1f19"/>
+<circle cx="24" cy="20" r="7" fill="#ff5f56"/><circle cx="46" cy="20" r="7" fill="#ffbd2e"/><circle cx="68" cy="20" r="7" fill="#27c93f"/>
+<text x="500" y="25" text-anchor="middle" class="t" style="font-size:13px;fill:#64748b">audit_manager.py rate — before and after the approved fix (real output, abridged)</text>
+<text x="26" y="70" class="t"><tspan fill="#34d399" font-weight="700">$ </tspan><tspan fill="#f8fafc">python audit_manager.py rate --code 70 --identity 65 --db 80 --infra 75 --api 60 --validation na</tspan></text>
+<text x="26" y="93" class="t"><tspan fill="#f8fafc" font-weight="700">Internal Security Rating (not a certification)</tspan></text>
+<text x="26" y="116" class="t"><tspan fill="#cbd5e1">  Assessed weight: 85%     Provisional score: 69.7/100</tspan></text>
+<text x="26" y="139" class="t"><tspan fill="#cbd5e1">  Stars: </tspan><tspan fill="#fbbf24" font-weight="700">★★</tspan><tspan fill="#64748b">☆☆☆</tspan></text>
+<text x="26" y="162" class="t"><tspan fill="#fbbf24">⚠ capped at 2 stars: 1 unresolved confirmed CRITICAL finding(s)</tspan></text>
+<text x="26" y="185" class="t"><tspan fill="#fbbf24">⚠ not assessed: Controlled validation</tspan></text>
+<text x="26" y="208" class="t"></text>
+<text x="26" y="231" class="t"><tspan fill="#34d399" font-weight="700">$ </tspan><tspan fill="#f8fafc">python audit_manager.py update SA-27FDAD --status fixed --note &quot;key rotated (approved change)&quot;</tspan></text>
+<text x="26" y="254" class="t"><tspan fill="#22d3ee">SA-27FDAD</tspan><tspan fill="#cbd5e1">: status </tspan><tspan fill="#fb923c">confirmed</tspan><tspan fill="#cbd5e1"> -&gt; </tspan><tspan fill="#34d399" font-weight="700">fixed</tspan><tspan fill="#cbd5e1">; note added</tspan></text>
+<text x="26" y="277" class="t"></text>
+<text x="26" y="300" class="t"><tspan fill="#34d399" font-weight="700">$ </tspan><tspan fill="#f8fafc">python audit_manager.py rate --code 85 --identity 80 --db 85 --infra 80 --api 70 --validation 75</tspan></text>
+<text x="26" y="323" class="t"><tspan fill="#f8fafc" font-weight="700">Internal Security Rating (not a certification)</tspan></text>
+<text x="26" y="346" class="t"><tspan fill="#cbd5e1">  Assessed weight: 100%    Provisional score: 79.5/100</tspan></text>
+<text x="26" y="369" class="t"><tspan fill="#cbd5e1">  Stars: </tspan><tspan fill="#fbbf24" font-weight="700">★★★</tspan><tspan fill="#64748b">☆☆</tspan></text>
+<text x="26" y="392" class="t"><tspan fill="#fbbf24">⚠ 1 unverified finding(s) not counted; verify or dismiss them</tspan></text>
+</svg>

@@ -1,0 +1,9 @@
+.security-audit/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+screenshots/
+dist/
+scope.json

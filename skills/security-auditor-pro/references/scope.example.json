@@ -1,0 +1,15 @@
+{
+  "project": "my-project",
+  "environment": "staging",
+  "authorized_hosts": [
+    "localhost"
+  ],
+  "test_accounts": "provided securely outside repo",
+  "allowed_modes": [
+    "read-only",
+    "bounded-functional"
+  ],
+  "max_requests_per_second": 1,
+  "max_concurrent_requests": 2,
+  "production_writes_allowed": false
+}

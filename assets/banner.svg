@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Claude Security Auditor Pro — 8 AI agents for authorized security audits">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05100c"/><stop offset=".6" stop-color="#0a1620"/><stop offset="1" stop-color="#0b1a14"/></linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#059669"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#10b981" stop-opacity=".35"/><stop offset="1" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+    <pattern id="hex" width="28" height="48" patternUnits="userSpaceOnUse" patternTransform="scale(1.1)">
+      <path d="M14 0 L28 8 L28 24 L14 32 L0 24 L0 8 Z M14 32 L14 48" fill="none" stroke="#34d399" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#hex)"/>
+  <circle cx="230" cy="210" r="190" fill="url(#glow)"/>
+
+  <!-- shield -->
+  <g transform="translate(130 70)">
+    <path d="M100 0 L196 34 V128 C196 196 150 246 100 270 C50 246 4 196 4 128 V34 Z" fill="url(#sh)"/>
+    <path d="M100 18 L180 46 V128 C180 186 142 228 100 250 C58 228 20 186 20 128 V46 Z" fill="#06281d"/>
+    <!-- 8 agent nodes around center -->
+    <g fill="#34d399">
+      <circle cx="100" cy="66" r="9"/><circle cx="146" cy="88" r="9"/><circle cx="160" cy="136" r="9"/><circle cx="140" cy="184" r="9"/>
+      <circle cx="100" cy="206" r="9"/><circle cx="60" cy="184" r="9"/><circle cx="40" cy="136" r="9"/><circle cx="54" cy="88" r="9"/>
+    </g>
+    <g stroke="#34d399" stroke-opacity=".55" stroke-width="2">
+      <line x1="100" y1="136" x2="100" y2="66"/><line x1="100" y1="136" x2="146" y2="88"/><line x1="100" y1="136" x2="160" y2="136"/><line x1="100" y1="136" x2="140" y2="184"/>
+      <line x1="100" y1="136" x2="100" y2="206"/><line x1="100" y1="136" x2="60" y2="184"/><line x1="100" y1="136" x2="40" y2="136"/><line x1="100" y1="136" x2="54" y2="88"/>
+    </g>
+    <circle cx="100" cy="136" r="24" fill="#ecfdf5"/>
+    <path d="M88 136 l8 8 l16 -18" fill="none" stroke="#047857" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="400" y="150" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#f0fdf4" letter-spacing="-1.5">Claude Security</text>
+  <text x="400" y="222" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#34d399" letter-spacing="-1.5">Auditor Pro</text>
+  <text x="404" y="270" font-family="ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="25" fill="#a7f3d0">8 AI agents · evidence, not guesses · nothing changes without your OK</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700">
+    <rect x="404" y="302" width="176" height="40" rx="20" fill="#064e3b" stroke="#10b981"/><text x="492" y="328" text-anchor="middle" fill="#6ee7b7">/security-audit</text>
+    <rect x="596" y="302" width="196" height="40" rx="20" fill="#0c2a4a" stroke="#3b82f6"/><text x="694" y="328" text-anchor="middle" fill="#93c5fd">/functional-audit</text>
+    <rect x="808" y="302" width="146" height="40" rx="20" fill="#3b2a06" stroke="#f59e0b"/><text x="881" y="328" text-anchor="middle" fill="#fcd34d">/full-audit</text>
+    <text x="976" y="329" fill="#fbbf24" font-size="22" letter-spacing="2">★★★★☆</text>
+  </g>
+</svg>

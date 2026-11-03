@@ -1,0 +1,23 @@
+{
+  "name": "claude-security-auditor-pro",
+  "version": "1.0.0",
+  "description": "A security team inside Claude Code: 8 AI agents for authorized, evidence-driven security and functional audits, approval-gated fixes, a safety supervisor with veto, and an honest coverage-based star rating.",
+  "author": {
+    "name": "jorgevb27",
+    "url": "https://github.com/jorgevb27"
+  },
+  "homepage": "https://github.com/jorgevb27/claude-security-auditor-pro",
+  "repository": "https://github.com/jorgevb27/claude-security-auditor-pro",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "security",
+    "security-audit",
+    "appsec",
+    "owasp",
+    "pentest",
+    "code-review",
+    "sub-agents",
+    "devsecops"
+  ]
+}
